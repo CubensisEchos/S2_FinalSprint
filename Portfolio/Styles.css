@@ -1,0 +1,108 @@
+.background {
+    background-image: linear-gradient(black, purple, rgb(0, 0, 0));
+}
+.background2 {
+    background-image: linear-gradient(black);
+}
+#headerPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+#headerPicImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+#header1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: white
+}
+#header2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: white
+}
+#header3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: white
+}
+
+#gameArea {
+    display: block;
+    border: 5px solid green;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.buttonLine1, .buttonLine2 {
+    display: flex;
+    justify-content:center ;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+
+}
+#buttons {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border: 2px solid green;
+}
+
+.returnButtonLine {
+    display: flex;
+    justify-content:center ;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+.projectLine1, .projectLine2 {
+    display: flex;
+    justify-content:center ;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    gap: 20px;
+    height: 500px;
+    width: 300;
+}
+
+#Returnbuttons {
+    height: 300px;
+    width: 400px;
+    background-color: black;
+    border: 2px solid green;
+}
+
+.pageClosed {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+#FooterCopyright {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
